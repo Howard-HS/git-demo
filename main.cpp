@@ -1,8 +1,12 @@
 #include <iostream>
 
+#include "PrintMessage.h"
+
+using namespace Output;
+
 int main()
 {
-	std::cout << "Hello World" << std::endl;
-	std::cout << "Added a new line here" << std::endl;
+	printMessage("Hello World");
+	printMessage("Added a new line here");
 	return 0;
 }
